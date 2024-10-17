@@ -1,0 +1,17 @@
+{
+    "extends": "./.svelte-kit/tsconfig.json",
+    "compilerOptions": {
+      "lib": ["ES2020", "DOM"],
+      "strict": true, // Enable all strict type-checking options
+      "jsx": "preserve", // Keep JSX as it is
+      // Add or customize any other options as needed
+    },
+    "include": [
+      "src/**/*" // Include all TypeScript files in the src directory
+    ],
+    "exclude": [
+      "node_modules", // Exclude node_modules
+      "build" // Exclude build artifacts
+    ]
+  }
+  
