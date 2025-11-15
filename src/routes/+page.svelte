@@ -7,6 +7,7 @@
 	import Founder from '../lib/components/founder.svelte';
 	import Footer from '../lib/components/footer.svelte';
 	import Contact from '../lib/components/contact.svelte'; 
+	import Emailer from '$lib/components/emailer.svelte';
 
 </script>
 
@@ -23,6 +24,6 @@
 <Hero />
 <Services id="services" />
 <Founder id="founder" />
-<Contact id="contact" />
+<Emailer id="contact" />
 <Footer id="about" />
 <slot />
